@@ -22,5 +22,9 @@ typst-svg = { workspace = true }
 comemo = { workspace = true }
 ecow = { workspace = true }
 
+[features]
+default = []
+webp = ["typst-library/webp", "typst-svg/webp"]
+
 [lints]
 workspace = true

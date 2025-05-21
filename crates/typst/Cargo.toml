@@ -25,5 +25,9 @@ typst-utils = { workspace = true }
 comemo = { workspace = true }
 ecow = { workspace = true }
 
+[features]
+default = []
+webp = ["typst-html/webp", "typst-layout/webp", "typst-library/webp"]
+
 [lints]
 workspace = true

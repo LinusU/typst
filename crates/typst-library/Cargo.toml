@@ -72,5 +72,9 @@ xmlwriter = { workspace = true }
 [dev-dependencies]
 typst-dev-assets = { workspace = true }
 
+[features]
+default = []
+webp = ["image/webp"]
+
 [lints]
 workspace = true

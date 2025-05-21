@@ -26,5 +26,9 @@ ttf-parser = { workspace = true }
 xmlparser = { workspace = true }
 xmlwriter = { workspace = true }
 
+[features]
+default = []
+webp = ["typst-library/webp"]
+
 [lints]
 workspace = true

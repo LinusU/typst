@@ -38,5 +38,9 @@ unicode-math-class = { workspace = true }
 unicode-script = { workspace = true }
 unicode-segmentation = { workspace = true }
 
+[features]
+default = []
+webp = ["typst-library/webp"]
+
 [lints]
 workspace = true
